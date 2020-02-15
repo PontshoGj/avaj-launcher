@@ -4,7 +4,7 @@ import java.net.URLConnection;
 import java.nio.file.Path;
 import java.nio.file.Files;
 import java.nio.file.FileSystems;
-
+import java.io.BufferedReader;
 
 class MyException extends Exception { 
     public MyException(String s) 
@@ -48,5 +48,10 @@ public class Simulator{
                 System.exit(0);
             }
         }
+        File file = new File(args[0]); 
+        BufferedReader br = new BufferedReader(new FileReader(file));
+        // String input = br.readLine();    
+        // String[] input = args[0].split(" ", 5);
+        // System.out.println(input);
     }
 }
