@@ -1,17 +1,9 @@
-// package simulator;
 import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Files;
 import java.nio.file.FileSystems;
 import java.io.BufferedReader;
 
-class MyException extends Exception { 
-    public MyException(String s) 
-    { 
-        // Call constructor of parent Exception 
-        super(s);
-    } 
-}
 
 class Exceptionhandling{
     //checking if the file provided is a .txt file and that there is a file provided as input, also check if the file exist 
@@ -58,20 +50,5 @@ class Exceptionhandling{
         }catch (Exception e){
             System.out.println(e.getMessage());
         }
-    }
-}
-
-public class Simulator{
-    public static void main(String[] args){
-        try{
-            Exceptionhandling check = new Exceptionhandling();
-            check.checkInput(args[0]);
-            check.checkFile(args[0]);
-        }catch(Exception e){
-            if (e.getMessage().equals("Index 0 out of bounds for length 0")){
-                System.out.println("please provide simulation text file as args");
-                System.exit(0);
-            }
-        } 
     }
 }
