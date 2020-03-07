@@ -1,3 +1,5 @@
+package simulator.exception;
+
 import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Files;
@@ -5,7 +7,7 @@ import java.nio.file.FileSystems;
 import java.io.BufferedReader;
 
 
-class Exceptionhandling{
+public class ExceptionHandling{
     //checking if the file provided is a .txt file and that there is a file provided as input, also check if the file exist 
     public void checkInput(String args){
         try {

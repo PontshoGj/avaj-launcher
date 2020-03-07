@@ -1,5 +1,5 @@
 package simulator.vehicle;
 
-public class Aircraft {
+public class Coordinates {
     
 }

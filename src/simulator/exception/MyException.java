@@ -1,3 +1,6 @@
+package simulator.exception;
+
+import simulator.exception.MyException;
 import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Files;
