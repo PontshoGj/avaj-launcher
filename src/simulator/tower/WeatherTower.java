@@ -1,4 +1,4 @@
-package simulator.tower;
+package tower;
 
 public class WeatherTower {
     

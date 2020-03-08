@@ -1,11 +1,4 @@
-package simulator.exception;
-
-import simulator.exception.MyException;
-import java.io.*;
-import java.nio.file.Path;
-import java.nio.file.Files;
-import java.nio.file.FileSystems;
-import java.io.BufferedReader;
+package exception;
 
 class MyException extends Exception { 
     public MyException(String s) 

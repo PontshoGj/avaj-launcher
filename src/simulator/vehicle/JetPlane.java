@@ -1,15 +1,14 @@
-package simulator.vehicle;
+package vehicle;
 
-import simulator.interfaces.Flyable;
-import simulator.interfaces.Flyable;
-import simulator.tower.*;
+import interfaces.Flyable;
+import tower.*;
 
 public class JetPlane extends Aircraft implements Flyable{
 
     public void updateConditions(){
 
     }
-    public void registerTower(WeatherTower WeatherTower){
+    public void registerTower(final WeatherTower WeatherTower){
 
     }
       

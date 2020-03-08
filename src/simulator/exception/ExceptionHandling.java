@@ -1,4 +1,4 @@
-package simulator.exception;
+package exception;
 
 import java.io.*;
 import java.nio.file.Path;
@@ -34,7 +34,6 @@ public class ExceptionHandling{
 
     //checking if the input file is formated correctly
     public void checkFile(String args){
-        int i = 0;
         String input;
 
         try{
@@ -47,6 +46,7 @@ public class ExceptionHandling{
                     throw new MyException("The file must have 5 elements in this form: TYPE NAME LONGITUDE LATITUDE HEIGHT");
                 }
             }
+            br.close();
         }catch (NumberFormatException e) {
             System.out.println("The first line should be a interger");
         }catch (Exception e){

@@ -1,7 +1,7 @@
-package simulator.vehicle;
+package vehicle;
 
-import simulator.interfaces.Flyable;
-import simulator.tower.*;
+import interfaces.Flyable;
+import tower.*;
 
 public class Helicopter extends Aircraft implements Flyable {
 

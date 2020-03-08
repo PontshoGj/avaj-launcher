@@ -1,8 +1,7 @@
-package simulator.vehicle;
+package vehicle;
 
-import simulator.interfaces.Flyable;
-import simulator.interfaces.Flyable;
-import simulator.tower.*;
+import interfaces.Flyable;
+import tower.*;
 
 public class Baloon extends Aircraft implements Flyable {
 

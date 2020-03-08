@@ -1,4 +1,4 @@
-package simulator.vehicle;
+package vehicle;
 
 public class Aircraft {
     
