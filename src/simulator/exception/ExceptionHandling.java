@@ -35,6 +35,7 @@ public class ExceptionHandling{
     //checking if the input file is formated correctly
     public void checkFile(String args){
         String input;
+        String check[];
 
         try{
             BufferedReader br = new BufferedReader(new FileReader(args));
@@ -42,9 +43,14 @@ public class ExceptionHandling{
             Integer.parseInt(br.readLine());
             //checking if there are five element after the first line of input
             while ((input = br.readLine()) != null){
-                if (input.split(" ").length != 5){
+                check = input.split(" ");
+                if (check.length != 5){
                     throw new MyException("The file must have 5 elements in this form: TYPE NAME LONGITUDE LATITUDE HEIGHT");
                 }
+                Integer.parseInt(check[2]);
+                Integer.parseInt(check[3]);
+                Integer.parseInt(check[4]);
+
             }
             br.close();
         }catch (NumberFormatException e) {
