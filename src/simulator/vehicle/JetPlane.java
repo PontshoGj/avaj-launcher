@@ -2,12 +2,12 @@ package vehicle;
 
 import interfaces.Flyable;
 import tower.*;
-import vehicle.*;
+import vehicle.Coordinates;;
 
 public class JetPlane extends Aircraft implements Flyable{
 
-    public JetPlane(String name, Coordinates Coordinates){
-
+    public JetPlane(String name, Coordinates coordinates){
+        super(name, coordinates);
     }
 
     public void updateConditions(){
