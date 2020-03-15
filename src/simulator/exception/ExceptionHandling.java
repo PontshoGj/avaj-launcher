@@ -40,7 +40,8 @@ public class ExceptionHandling{
         try{
             BufferedReader br = new BufferedReader(new FileReader(args));
             //checking if the input can be converted in an integer (if it is a number)
-            Integer.parseInt(br.readLine());
+            if (Integer.parseInt(br.readLine()) < 1)
+                throw new MyException("Invalid Simulation count the number of Simulation must be more than zero");
             //checking if there are five element after the first line of input
             while ((input = br.readLine()) != null){
                 check = input.split(" ");
