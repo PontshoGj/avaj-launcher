@@ -1,6 +1,6 @@
 package vehicle;
 
-import vehicle.Coordinate;
+import vehicle.*;
 
 public class AircraftFactory{
     public Flyable newAircraft(String type,String name, int longitude, int latitude, int height){

@@ -1,24 +1,23 @@
 package vehicle;
 
 import java.util.HashMap;
-import interfaces.Flyable;
 import tower.*;
 import vehicle.Coordinates;
 import logs.Logs;
 
 public class Baloon extends Aircraft implements Flyable {
-    private weather  WeatherTower
+    private  WeatherTower weather;
 
 
     public Baloon(String name, Coordinates coordinates){
         super(name, coordinates);
     }
     public void updateConditions(){
-        String weather = WeatherTower.getWeather(this.coordinates);
+        String condition = this.weather.getWeather(this.coordinates);
         HashMap<String, String> comment = new HashMap<String, String>();
 
-        switch(weather){
-            case weather.equals("SUN"):{
+        switch(condition){
+            case condition.equals("SUN"):{
                 this.coordinates = New Coordinates(
                     coordinates.getLongitude() + 2,
                     coordinates.getLatitude(),
@@ -27,7 +26,7 @@ public class Baloon extends Aircraft implements Flyable {
                 comment.put("SUN", "");
                 break;
             }
-            case weather.equals("RAIN"):{
+            case condition.equals("RAIN"):{
                 this.coordinates = New Coordinates(
                     coordinates.getLongitude(),
                     coordinates.getLatitude() - 5,
@@ -36,7 +35,7 @@ public class Baloon extends Aircraft implements Flyable {
                 comment.put("RAIN", "");
                 break;
             }
-            case weather.equals("FOG"):{
+            case condition.equals("FOG"):{
                 this.coordinates = New Coordinates(
                     coordinates.getLongitude(),
                     coordinates.getLatitude() - 3,
@@ -45,7 +44,7 @@ public class Baloon extends Aircraft implements Flyable {
                 comment.put("FOG", "");
                 break;
             }
-            case weather.equals("SNOW"):{
+            case condition.equals("SNOW"):{
                 this.coordinates = New Coordinates(
                     coordinates.getLongitude(),
                     coordinates.getLatitude(),
@@ -62,7 +61,10 @@ public class Baloon extends Aircraft implements Flyable {
         // }
     }
     public void registerTower(WeatherTower WeatherTower){
-        
+        this.weather = WeatherTower;
+        //registaring to tower
+        this.weather.register(this.Baloon);
+        //log message
     }
     
 }

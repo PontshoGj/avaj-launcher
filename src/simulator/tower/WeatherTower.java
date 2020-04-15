@@ -1,5 +1,6 @@
 package tower;
-import vehicle.Coordinates;
+
+import vehicle.*;
 
 public class WeatherTower extends Tower {
 

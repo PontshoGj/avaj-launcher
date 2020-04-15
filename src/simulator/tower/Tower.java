@@ -1,16 +1,17 @@
 package tower;
 
 import java.util.ArrayList;
+import vehicle.*;
 
 public class Tower {
     ArrayList<Flyable> observers = new ArrayList<String>();
     public void register(Flyable flyable){
-        if (!observers.contains(flyable)){
-            observers.add(flyable);
+        if (!this.observers.contains(flyable)){
+            this.observers.add(flyable);
         }
     }
     public  void unregister(Flyable flyable){
-        observers.remove(flyable);
+        this.observers.remove(flyable);
     }
     protected void conditionChange() {
         for (Flyable vehicle in this.observers){
