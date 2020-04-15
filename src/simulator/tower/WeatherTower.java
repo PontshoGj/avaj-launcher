@@ -1,11 +1,14 @@
 package tower;
 import vehicle.Coordinates;
 
-public class WeatherTower {
+public class WeatherTower extends Tower {
 
     public String getWeather(Coordinates coordinates){
-
-        return "SUN";
+        WeatherPorvider provider = WeatherPorvider.getProvide();
+        return (provider.getCurrentWeather(coordinates));
     }
-    
+    private void changeWeather() {
+        this.conditionChange()
+    }    
+
 }

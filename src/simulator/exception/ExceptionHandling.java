@@ -33,10 +33,11 @@ public class ExceptionHandling{
     }
 
     //checking if the input file is formated correctly
-    public void checkFile(String args){
+    public String[][] checkFile(String args){
         String input;
         String check[];
-
+        String vehicle[][];
+        int i = 0;
         try{
             BufferedReader br = new BufferedReader(new FileReader(args));
             //checking if the input can be converted in an integer (if it is a number)
@@ -51,7 +52,7 @@ public class ExceptionHandling{
                 Integer.parseInt(check[2]);
                 Integer.parseInt(check[3]);
                 Integer.parseInt(check[4]);
-
+                vehicle[i++] = {check[0], check[1], check[2], check[3], check[4]}; 
             }
             br.close();
         }catch (NumberFormatException e) {
@@ -59,5 +60,6 @@ public class ExceptionHandling{
         }catch (Exception e){
             System.out.println(e.getMessage());
         }
+        return (vehicle);
     }
 }
