@@ -71,7 +71,7 @@ public class ExceptionHandling{
                 vehicle[i][1] = check[1]; 
                 vehicle[i][2] = check[2]; 
                 vehicle[i][3] = check[3]; 
-                vehicle[i][4] = check[4]; 
+                vehicle[i++][4] = check[4]; 
             }
             br.close();
         }catch (NumberFormatException e) {
