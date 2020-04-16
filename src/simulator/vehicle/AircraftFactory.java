@@ -4,22 +4,23 @@ import vehicle.*;
 
 public class AircraftFactory{
     public Flyable newAircraft(String type,String name, int longitude, int latitude, int height){
-        Coordinate coordinates = new Coordinate(
+        Coordinates coordinates = new Coordinates(
             longitude,
             latitude,
             height
         );
+        type = type.toLowerCase();
         switch(type){
-            case type.toLowerCase().equals("helicopter"):{
+            case "helicopter":{
                 return (Helicopter(name, coordinates));
                 break;
             }
-            case type.toLowerCase().equals("baloon"):{
+            case "baloon":{
                 return (Baloon(name, coordinates));
                 break;
             }
-            case type.toLowerCase().equals("jetplane"):{
-                return (Height(name, coordinates));
+            case "jetplane":{
+                return (JetPlane(name, coordinates));
                 break;
             }
         }
