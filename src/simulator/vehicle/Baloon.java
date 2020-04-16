@@ -63,7 +63,7 @@ public class Baloon extends Aircraft implements Flyable {
         this.weather = WeatherTower;
         //registaring to tower
         Logs log = new Logs().getLogs();
-        log.wirteLog("Tower says: Baloon" + this.name + "#(" + this.id +") registered to weather tower");
+        log.wirteLog("Tower says: Baloon#" + this.name + "(" + this.id +") registered to weather tower");
         this.weather.register(this);
         //log message
     }

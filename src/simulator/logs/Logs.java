@@ -23,7 +23,7 @@ public class Logs{
         try{
             BufferedWriter out = new BufferedWriter( 
                    new FileWriter("../../simulation.txt", true)); 
-            out.write(info); 
+            out.write(info + "\n"); 
             out.close(); 
         }catch (IOException e){
             System.out.println(e.getMessage());
