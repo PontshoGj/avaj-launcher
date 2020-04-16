@@ -15,7 +15,7 @@ public class Tower {
     }
     protected void conditionChange() {
         for (Flyable vehicle : this.observers){
-            vehicle.updateCondition();
+            vehicle.updateConditions();
         }
     }
 }
