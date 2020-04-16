@@ -54,6 +54,8 @@ public class JetPlane extends Aircraft implements Flyable{
                 break;
             }
         }
+        Logs log = new Logs().getLogs();
+        log.wirteLog("JetPlane#"+ this.name + "(" + this.id + "): " + comment.get(condition));
     }
 
     public void registerTower(WeatherTower WeatherTower){

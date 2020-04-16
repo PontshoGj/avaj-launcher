@@ -53,6 +53,8 @@ public class Helicopter extends Aircraft implements Flyable {
                 break;
             }
         }
+        Logs log = new Logs().getLogs();
+        log.wirteLog("Helicopter#"+ this.name + "(" + this.id + "): " + comment.get(condition));
     }
 
     public void registerTower(WeatherTower WeatherTower){

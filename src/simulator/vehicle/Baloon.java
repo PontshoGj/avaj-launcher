@@ -53,6 +53,8 @@ public class Baloon extends Aircraft implements Flyable {
                 break;
             }
         }
+        Logs log = new Logs().getLogs();
+        log.wirteLog("Baloon#"+ this.name + "(" + this.id + "): " + comment.get(condition));
         // if (weather.getHeight <= 0){
 
         // }else{

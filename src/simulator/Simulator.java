@@ -6,6 +6,7 @@ import tower.*;
 
 public class Simulator{
     public static void main(String[] args){
+        int weatherChangeCounter = 0;
         try{
             ExceptionHandling check = new ExceptionHandling();
             check.checkInput(args[0]);
@@ -21,6 +22,10 @@ public class Simulator{
             for (int i = 0; i < vehicles.length; i++){
                     aircraft.newAircraft(vehicles[i][0], vehicles[i][1], Integer.parseInt(vehicles[i][2]), Integer.parseInt(vehicles[i][3]), Integer.parseInt(vehicles[i][4])).registerTower(weatherTower);
                 // System.out.println(WeatherTower);
+            }
+            
+            while(weatherChangeCounter-- > 0){
+                weatherTower.changeWeather();
             }
         }catch(Exception e){
             if (e.getMessage().equals("Index 0 out of bounds for length 0")){
