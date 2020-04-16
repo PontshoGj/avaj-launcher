@@ -3,6 +3,6 @@ package vehicle;
 import tower.*;
 
 public interface Flyable {
-    public void updateConditoins();
+    public void updateConditions();
     public void registerTower(WeatherTower WeatherTower);
 }
