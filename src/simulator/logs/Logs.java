@@ -1,8 +1,6 @@
 package logs;
 
-import java.io.FileWriter;   // Import the FileWriter class
-import java.io.IOException;  // Import the IOException class to handle errors
-import java.io.File;  // Import the File class
+import java.io.*;  // Import the File class
 
 
 public class Logs{
@@ -23,9 +21,10 @@ public class Logs{
 
     public void wirteLog(String info){
         try{
-        FileWriter writer = new FileWriter("../../simulation.txt");
-        writer.write(info);
-        writer.close();
+            BufferedWriter out = new BufferedWriter( 
+                   new FileWriter("../../simulation.txt", true)); 
+            out.write(info); 
+            out.close(); 
         }catch (IOException e){
             System.out.println(e.getMessage());
         }
