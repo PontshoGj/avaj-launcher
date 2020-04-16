@@ -54,7 +54,20 @@ public class Helicopter extends Aircraft implements Flyable {
             }
         }
         Logs log = new Logs().getLogs();
-        log.wirteLog("Helicopter#"+ this.name + "(" + this.id + "): " + comment.get(condition));
+        if (this.coordinates.getHeight() <= 0){
+            log.wirteLog("Helicopter#" + this.name + "(" + this.id +") landed.");
+            log.wirteLog("Tower says: Helicopter#" + this.name + "(" + this.id +") unregistered from weather tower.");
+            
+        }else{
+            if (this.coordinates.getHeight() > 100){
+                this.coordinates = new Coordinates(
+                    coordinates.getLongitude(),
+                    coordinates.getLatitude(),
+                    100
+                );
+            }
+            log.wirteLog("Helicopter#"+ this.name + "(" + this.id + "): " + comment.get(condition) + ".");
+        }    
     }
 
     public void registerTower(WeatherTower WeatherTower){

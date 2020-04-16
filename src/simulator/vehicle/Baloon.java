@@ -54,12 +54,23 @@ public class Baloon extends Aircraft implements Flyable {
             }
         }
         Logs log = new Logs().getLogs();
-        log.wirteLog("Baloon#"+ this.name + "(" + this.id + "): " + comment.get(condition));
-        // if (weather.getHeight <= 0){
-
-        // }else{
-
-        // }
+        if (this.coordinates.getHeight() <= 0){
+            if (condition.equals("RAIN")){
+                log.wirteLog("Baloon#"+ this.name + "(" + this.id + "): " + comment.get(condition) + ".");
+            }
+            log.wirteLog("Baloon#" + this.name + "(" + this.id +") landed.");
+            log.wirteLog("Tower says: Baloon#" + this.name + "(" + this.id +") unregistered from weather tower.");
+            
+        }else{
+            if (this.coordinates.getHeight() > 100){
+                this.coordinates = new Coordinates(
+                    coordinates.getLongitude(),
+                    coordinates.getLatitude(),
+                    100
+                );
+            }
+            log.wirteLog("Baloon#"+ this.name + "(" + this.id + "): " + comment.get(condition) + ".");
+        }
     }
     public void registerTower(WeatherTower WeatherTower){
         this.weather = WeatherTower;
