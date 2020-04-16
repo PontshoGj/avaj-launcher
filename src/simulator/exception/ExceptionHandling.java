@@ -32,11 +32,26 @@ public class ExceptionHandling{
         }        
     }
 
+    private int countVehicles(String args){
+        
+        try{
+            BufferedReader br = new BufferedReader(new FileReader(args));
+            int i = -1;
+            while ((br.readLine()) != null){
+                i++;
+            }
+            br.close()
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+        return i;
+    }
+
     //checking if the input file is formated correctly
     public String[][] checkFile(String args){
         String input;
         String check[];
-        String vehicle[][];
+        String vehicle[][] = new String[countVehicles(args)][5];
         int i = 0;
         try{
             BufferedReader br = new BufferedReader(new FileReader(args));
@@ -52,7 +67,11 @@ public class ExceptionHandling{
                 Integer.parseInt(check[2]);
                 Integer.parseInt(check[3]);
                 Integer.parseInt(check[4]);
-                vehicle[i++].push(check[0], check[1], check[2], check[3], check[4]); 
+                vehicle[i][0] = check[0]; 
+                vehicle[i][1] = check[1]; 
+                vehicle[i][2] = check[2]; 
+                vehicle[i][3] = check[3]; 
+                vehicle[i][4] = check[4]; 
             }
             br.close();
         }catch (NumberFormatException e) {

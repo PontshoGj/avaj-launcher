@@ -1,6 +1,5 @@
 package vehicle;
 
-import vehicle.*;
 
 public class AircraftFactory{
     public Flyable newAircraft(String type,String name, int longitude, int latitude, int height){
@@ -10,19 +9,21 @@ public class AircraftFactory{
             height
         );
         type = type.toLowerCase();
+        Flyable flyable = null;
         switch(type){
             case "helicopter":{
-                return (Helicopter(name, coordinates));
+                flyable = new Helicopter(name, coordinates);
                 break;
             }
             case "baloon":{
-                return (Baloon(name, coordinates));
+                flyable = new Baloon(name, coordinates);
                 break;
             }
             case "jetplane":{
-                return (JetPlane(name, coordinates));
+                flyable = new JetPlane(name, coordinates);
                 break;
             }
         }
+        return flyable;
     }
 }
