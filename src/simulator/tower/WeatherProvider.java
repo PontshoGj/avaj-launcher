@@ -15,8 +15,8 @@ public class WeatherProvider {
     }
 
     public String getCurrentWeather(Coordinates coordinates){
-        Random rand = new Random(0, 4); 
+        Random rand = new Random(); 
         
-        return (this.weather[rand]);
+        return (this.weather[rand.nextInt(5)]);
     }
 }
