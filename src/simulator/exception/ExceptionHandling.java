@@ -47,6 +47,17 @@ public class ExceptionHandling{
         return i;
     }
 
+    public int getSimulation(String args){
+        int i = 0;
+        try{
+            BufferedReader br = new BufferedReader(new FileReader(args));
+            i = Integer.parseInt(br.readLine());
+            br.close();
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+        return i;
+    }
     //checking if the input file is formated correctly
     public String[][] checkFile(String args){
         String input;

@@ -12,6 +12,7 @@ public class Simulator{
             check.checkInput(args[0]);
             //check the file and returning the vehicles
             String[][] vehicles = check.checkFile(args[0]);
+            weatherChangeCounter = check.getSimulation(args[0]);
             //instanciating a new AircraftFactory class to register the vehicles to the tower
             AircraftFactory aircraft = new AircraftFactory();
             WeatherTower weatherTower = new WeatherTower();
