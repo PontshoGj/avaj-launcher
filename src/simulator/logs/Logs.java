@@ -8,7 +8,7 @@ import java.io.File;  // Import the File class
 public class Logs{
  
     private static Logs log = new Logs();
-    private Logs(){
+    public Logs(){
         try{
             File outputFile = new File("../../simulation.txt");
             outputFile.createNewFile();

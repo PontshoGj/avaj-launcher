@@ -2,7 +2,7 @@ package vehicle;
 
 import java.util.HashMap;
 import tower.*;
-// import logs.Logs;
+import logs.Logs;
 
 public class Helicopter extends Aircraft implements Flyable {
     private  WeatherTower weather;
@@ -60,6 +60,8 @@ public class Helicopter extends Aircraft implements Flyable {
         //registaring to tower
         this.weather.register(this);
         //log message
+        Logs log = new Logs().getLogs();
+        log.wirteLog("Tower says: Helicopter" + this.name + "(" + this.id +") registered to weather tower");
     }
     
 }
