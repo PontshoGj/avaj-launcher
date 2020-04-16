@@ -34,13 +34,13 @@ public class ExceptionHandling{
 
     private int countVehicles(String args){
         
+        int i = -1;
         try{
             BufferedReader br = new BufferedReader(new FileReader(args));
-            int i = -1;
             while ((br.readLine()) != null){
                 i++;
             }
-            br.close()
+            br.close();
         }catch (Exception e){
             System.out.println(e.getMessage());
         }
