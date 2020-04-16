@@ -22,7 +22,7 @@ public class Helicopter extends Aircraft implements Flyable {
                     coordinates.getLatitude() + 10,
                     coordinates.getHeight() + 2
                 );
-                comment.put("SUN", "");
+                comment.put("SUN", "This is hot.");
                 break;
             }
             case "RAIN":{
@@ -31,7 +31,7 @@ public class Helicopter extends Aircraft implements Flyable {
                     coordinates.getLatitude(),
                     coordinates.getHeight()
                 );
-                comment.put("RAIN", "");
+                comment.put("RAIN", "Hhhh rain");
                 break;
             }
             case "FOG":{
@@ -40,7 +40,7 @@ public class Helicopter extends Aircraft implements Flyable {
                     coordinates.getLatitude(),
                     coordinates.getHeight()
                 );
-                comment.put("FOG", "");
+                comment.put("FOG", "Its getting foggy");
                 break;
             }
             case "SNOW":{
@@ -49,7 +49,7 @@ public class Helicopter extends Aircraft implements Flyable {
                     coordinates.getLatitude(),
                     coordinates.getHeight() - 12
                 );
-                comment.put("SNOW", "");
+                comment.put("SNOW", "Winter is coming!");
                 break;
             }
         }

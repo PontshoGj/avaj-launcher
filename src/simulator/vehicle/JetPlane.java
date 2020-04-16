@@ -23,7 +23,7 @@ public class JetPlane extends Aircraft implements Flyable{
                     coordinates.getLatitude() + 10,
                     coordinates.getHeight() + 2
                 );
-                comment.put("SUN", "");
+                comment.put("SUN", "The sun is blinding me!");
                 break;
             }
             case "RAIN":{
@@ -32,7 +32,7 @@ public class JetPlane extends Aircraft implements Flyable{
                     coordinates.getLatitude() + 5,
                     coordinates.getHeight()
                 );
-                comment.put("RAIN", "");
+                comment.put("RAIN", "F***k its raining");
                 break;
             }
             case "FOG":{
@@ -41,7 +41,7 @@ public class JetPlane extends Aircraft implements Flyable{
                     coordinates.getLatitude() + 1,
                     coordinates.getHeight()
                 );
-                comment.put("FOG", "");
+                comment.put("FOG", "Its The FOG!");
                 break;
             }
             case "SNOW":{
@@ -50,7 +50,7 @@ public class JetPlane extends Aircraft implements Flyable{
                     coordinates.getLatitude(),
                     coordinates.getHeight() - 5
                 );
-                comment.put("SNOW", "");
+                comment.put("SNOW", "Oh snow");
                 break;
             }
         }

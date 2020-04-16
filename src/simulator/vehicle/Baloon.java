@@ -22,7 +22,7 @@ public class Baloon extends Aircraft implements Flyable {
                     coordinates.getLatitude(),
                     coordinates.getHeight() + 2
                 );
-                comment.put("SUN", "");
+                comment.put("SUN", "Let's enjoy the good weather");
                 break;
             }
             case "RAIN":{
@@ -31,7 +31,7 @@ public class Baloon extends Aircraft implements Flyable {
                     coordinates.getLatitude() - 5,
                     coordinates.getHeight()
                 );
-                comment.put("RAIN", "");
+                comment.put("RAIN", "Wow rain");
                 break;
             }
             case "FOG":{
@@ -40,7 +40,7 @@ public class Baloon extends Aircraft implements Flyable {
                     coordinates.getLatitude() - 3,
                     coordinates.getHeight()
                 );
-                comment.put("FOG", "");
+                comment.put("FOG", "What's the big thing");
                 break;
             }
             case "SNOW":{
@@ -49,7 +49,7 @@ public class Baloon extends Aircraft implements Flyable {
                     coordinates.getLatitude(),
                     coordinates.getHeight() - 15
                 );
-                comment.put("SNOW", "");
+                comment.put("SNOW", "The Snow");
                 break;
             }
         }
