@@ -4,19 +4,18 @@ import java.util.ArrayList;
 import vehicle.*;
 
 public class Tower {
-    ArrayList<Flyable> observers = new ArrayList<Flyable>();
+    ArrayList<Flyable> observers = new ArrayList<>();
     public void register(Flyable flyable){
         if (!this.observers.contains(flyable)){
             this.observers.add(flyable);
-            System.out.println(this.observers);
         }
     }
     public  void unregister(Flyable flyable){
         this.observers.remove(flyable);
     }
     protected void conditionChange() {
-        for (Flyable vehicle : this.observers){
-            vehicle.updateConditions();
+        for (int i = 0; i < this.observers.size(); i++){
+            this.observers.get(i).updateConditions();
         }
     }
 }
