@@ -1,7 +1,5 @@
 package vehicle;
 
-import vehicle.Coordinates;
-
 public class Aircraft {
     
     protected long id;
@@ -11,7 +9,7 @@ public class Aircraft {
     protected Aircraft(String name, Coordinates coordinates){
         this.name = name;
         this.coordinates = coordinates;
-        this.id = this.idCounter;
+        this.id = this.nextId();
     }
 
     private long nextId(){

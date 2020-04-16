@@ -2,8 +2,7 @@ package vehicle;
 
 import java.util.HashMap;
 import tower.*;
-import vehicle.Coordinates;
-import logs.Logs;
+// import logs.Logs;
 
 public class Helicopter extends Aircraft implements Flyable {
     private  WeatherTower weather;
