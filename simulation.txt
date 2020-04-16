@@ -7,3 +7,228 @@ Tower says: Helicopter#H3(6) registered to weather tower
 Tower says: Baloon#B3(7) registered to weather tower
 Tower says: JetPlane#J2(8) registered to weather tower
 Tower says: Helicopter#H4(9) registered to weather tower
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!
+Baloon#B1(1): The Snow
+Baloon#B2(2): The Snow
+JetPlane#J1(3): Oh snow
+Helicopter#H1(4): Winter is coming!
+Helicopter#H2(5): Winter is coming!
+Helicopter#H3(6): Winter is coming!
+Baloon#B3(7): The Snow
+JetPlane#J2(8): Oh snow
+Helicopter#H4(9): Winter is coming!

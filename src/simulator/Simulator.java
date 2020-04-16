@@ -24,7 +24,7 @@ public class Simulator{
                     aircraft.newAircraft(vehicles[i][0], vehicles[i][1], Integer.parseInt(vehicles[i][2]), Integer.parseInt(vehicles[i][3]), Integer.parseInt(vehicles[i][4])).registerTower(weatherTower);
                 // System.out.println(WeatherTower);
             }
-            
+            System.out.println(weatherChangeCounter);
             while(weatherChangeCounter-- > 0){
                 weatherTower.changeWeather();
             }
