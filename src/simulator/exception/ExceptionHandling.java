@@ -52,7 +52,7 @@ public class ExceptionHandling{
                 Integer.parseInt(check[2]);
                 Integer.parseInt(check[3]);
                 Integer.parseInt(check[4]);
-                vehicle[i++] = {check[0], check[1], check[2], check[3], check[4]}; 
+                vehicle[i++].push(check[0], check[1], check[2], check[3], check[4]); 
             }
             br.close();
         }catch (NumberFormatException e) {

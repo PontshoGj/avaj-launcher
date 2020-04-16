@@ -18,8 +18,8 @@ public class JetPlane extends Aircraft implements Flyable{
         
 
         switch(condition){
-            case condition.equals("SUN"):{
-                this.coordinates = New Coordinates(
+            case "SUN":{
+                this.coordinates = new Coordinates(
                     coordinates.getLongitude(),
                     coordinates.getLatitude() + 10,
                     coordinates.getHeight() + 2
@@ -27,8 +27,8 @@ public class JetPlane extends Aircraft implements Flyable{
                 comment.put("SUN", "");
                 break;
             }
-            case condition.equals("RAIN"):{
-                this.coordinates = New Coordinates(
+            case "RAIN":{
+                this.coordinates = new Coordinates(
                     coordinates.getLongitude(),
                     coordinates.getLatitude() + 5,
                     coordinates.getHeight()
@@ -36,8 +36,8 @@ public class JetPlane extends Aircraft implements Flyable{
                 comment.put("RAIN", "");
                 break;
             }
-            case condition.equals("FOG"):{
-                this.coordinates = New Coordinates(
+            case "FOG":{
+                this.coordinates = new Coordinates(
                     coordinates.getLongitude(),
                     coordinates.getLatitude() + 1,
                     coordinates.getHeight()
@@ -45,8 +45,8 @@ public class JetPlane extends Aircraft implements Flyable{
                 comment.put("FOG", "");
                 break;
             }
-            case condition.equals("SNOW"):{
-                this.coordinates = New Coordinates(
+            case "SNOW":{
+                this.coordinates = new Coordinates(
                     coordinates.getLongitude(),
                     coordinates.getLatitude(),
                     coordinates.getHeight() - 5

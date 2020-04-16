@@ -17,8 +17,8 @@ public class Baloon extends Aircraft implements Flyable {
         HashMap<String, String> comment = new HashMap<String, String>();
 
         switch(condition){
-            case condition.equals("SUN"):{
-                this.coordinates = New Coordinates(
+            case "SUN":{
+                this.coordinates = new Coordinates(
                     coordinates.getLongitude() + 2,
                     coordinates.getLatitude(),
                     coordinates.getHeight() + 2
@@ -26,8 +26,8 @@ public class Baloon extends Aircraft implements Flyable {
                 comment.put("SUN", "");
                 break;
             }
-            case condition.equals("RAIN"):{
-                this.coordinates = New Coordinates(
+            case "RAIN":{
+                this.coordinates = new Coordinates(
                     coordinates.getLongitude(),
                     coordinates.getLatitude() - 5,
                     coordinates.getHeight()
@@ -35,8 +35,8 @@ public class Baloon extends Aircraft implements Flyable {
                 comment.put("RAIN", "");
                 break;
             }
-            case condition.equals("FOG"):{
-                this.coordinates = New Coordinates(
+            case "FOG":{
+                this.coordinates = new Coordinates(
                     coordinates.getLongitude(),
                     coordinates.getLatitude() - 3,
                     coordinates.getHeight()
@@ -44,8 +44,8 @@ public class Baloon extends Aircraft implements Flyable {
                 comment.put("FOG", "");
                 break;
             }
-            case condition.equals("SNOW"):{
-                this.coordinates = New Coordinates(
+            case "SNOW":{
+                this.coordinates = new Coordinates(
                     coordinates.getLongitude(),
                     coordinates.getLatitude(),
                     coordinates.getHeight() - 15

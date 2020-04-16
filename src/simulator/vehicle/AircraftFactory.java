@@ -10,15 +10,15 @@ public class AircraftFactory{
             height
         );
         switch(type){
-            case type.toLowerCase().equals('helicopter'){
+            case type.toLowerCase().equals("helicopter"):{
                 return (Helicopter(name, coordinates));
                 break;
             }
-            case type.toLowerCase().equals('baloon'){
+            case type.toLowerCase().equals("baloon"):{
                 return (Baloon(name, coordinates));
                 break;
             }
-            case type.toLowerCase().equals('jetplane'){
+            case type.toLowerCase().equals("jetplane"):{
                 return (Height(name, coordinates));
                 break;
             }
