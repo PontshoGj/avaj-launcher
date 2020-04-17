@@ -19,7 +19,7 @@ public class WeatherProvider {
         Random rand = new Random(); 
         rand.setSeed(coordinates.getHeight() + coordinates.getLatitude() + coordinates.getLongitude());
         int a = rand.nextInt(4);
-        this.holdprevvalue = a;
+        holdprevvalue = a;
         // System.out.println(a);
         while(true){
             if ((a >= 0 && a < 4) && a != holdprevvalue){
