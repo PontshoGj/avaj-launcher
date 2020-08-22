@@ -2,6 +2,7 @@ package tower;
 
 import vehicle.Coordinates;
 import java.util.Random;
+import tower.*;
 
 public class WeatherProvider {
     
@@ -9,7 +10,7 @@ public class WeatherProvider {
     private static int holdprevvalue;
 
     private static WeatherProvider weatherProvider = new WeatherProvider();
-    public WeatherProvider(){}
+    private WeatherProvider(){}
 
     public WeatherProvider getProvider(){
         return (weatherProvider);

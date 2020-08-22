@@ -1,4 +1,5 @@
 package exception;
+import Exception.*;
 
 class MyException extends Exception { 
     public MyException(String s) 
