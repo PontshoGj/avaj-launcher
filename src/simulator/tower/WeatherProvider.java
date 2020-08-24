@@ -2,17 +2,18 @@ package tower;
 
 import vehicle.Coordinates;
 import java.util.Random;
-import tower.*;
 
 public class WeatherProvider {
     
     private String[] weather = { "SUN", "RAIN", "FOG", "SNOW"};
     private static int holdprevvalue;
 
-    private static WeatherProvider weatherProvider = new WeatherProvider();
+    private static WeatherProvider weatherProvider = null;
     private WeatherProvider(){}
 
-    public WeatherProvider getProvider(){
+    public  static WeatherProvider getProvider(){
+        if (weatherProvider == null)
+            weatherProvider = new WeatherProvider();
         return (weatherProvider);
     }
 
@@ -20,8 +21,7 @@ public class WeatherProvider {
         Random rand = new Random(); 
         rand.setSeed(coordinates.getHeight() + coordinates.getLatitude() + coordinates.getLongitude());
         int a = rand.nextInt(4);
-        holdprevvalue = a;
-        // System.out.println(a);
+        this.holdprevvalue = a;
         while(true){
             if ((a >= 0 && a < 4) && a != holdprevvalue){
                 holdprevvalue = a;

@@ -15,7 +15,10 @@ public class Tower {
     }
     protected void conditionChange() {
         for (int i = 0; i < this.observers.size(); i++){
+            int size = this.observers.size();
             this.observers.get(i).updateConditions();
+            if (this.observers.size() < size)
+                i--;
         }
     }
 }

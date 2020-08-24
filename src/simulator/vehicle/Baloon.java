@@ -2,8 +2,7 @@ package vehicle;
 
 import java.util.HashMap;
 import tower.*;
-import logs.*;
-import vehicle.*;
+import logs.Logs;
 
 public class Baloon extends Aircraft implements Flyable {
     private  WeatherTower weather;

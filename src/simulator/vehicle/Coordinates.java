@@ -1,7 +1,5 @@
 package vehicle;
 
-import vehicle.*;
-
 public class Coordinates {
 
     private int longitude;
