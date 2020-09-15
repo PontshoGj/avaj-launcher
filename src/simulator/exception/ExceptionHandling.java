@@ -5,7 +5,7 @@ import java.nio.file.Path;
 import java.nio.file.Files;
 import java.nio.file.FileSystems;
 import java.io.BufferedReader;
-
+import java.util.ArrayList;
 
 public class ExceptionHandling{
     //checking if the file provided is a .txt file and that there is a file provided as input, also check if the file exist 
@@ -43,6 +43,7 @@ public class ExceptionHandling{
             br.close();
         }catch (Exception e){
             System.out.println(e.getMessage());
+            System.exit(0);
         }
         return i;
     }
@@ -55,6 +56,7 @@ public class ExceptionHandling{
             br.close();
         }catch (Exception e){
             System.out.println(e.getMessage());
+            System.exit(0);
         }
         return i;
     }
@@ -63,6 +65,10 @@ public class ExceptionHandling{
         String input;
         String check[];
         String vehicle[][] = new String[countVehicles(args)][5];
+        ArrayList<String> observers = new ArrayList<>();
+        observers.add("Baloon");
+        observers.add("JetPlane");
+        observers.add("Helicopter");
         int i = 0;
         try{
             BufferedReader br = new BufferedReader(new FileReader(args));
@@ -74,6 +80,13 @@ public class ExceptionHandling{
                 check = input.split(" ");
                 if (check.length != 5){
                     throw new MyException("The file must have 5 elements in this form: TYPE NAME LONGITUDE LATITUDE HEIGHT");
+                }
+                // System.out.println(check[0]);
+                if (!observers.contains(check[0])){
+                    throw new MyException("Please insert correct vehicle");
+                }
+                if (Integer.parseInt(check[2]) < 1 || Integer.parseInt(check[3]) < 1 || Integer.parseInt(check[4]) < 1){
+                    throw new MyException("values must not be less than zero");
                 }
                 Integer.parseInt(check[2]);
                 Integer.parseInt(check[3]);
@@ -87,8 +100,10 @@ public class ExceptionHandling{
             br.close();
         }catch (NumberFormatException e) {
             System.out.println("The first line should be a interger");
+            System.exit(0);
         }catch (Exception e){
             System.out.println(e.getMessage());
+            System.exit(0);
         }
         return (vehicle);
     }
