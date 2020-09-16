@@ -5,7 +5,7 @@ import tower.*;
 import logs.Logs;
 
 public class Baloon extends Aircraft implements Flyable {
-    private  WeatherTower weather;
+    private static  WeatherTower weather;
 
 
     public Baloon(String name, Coordinates coordinates){

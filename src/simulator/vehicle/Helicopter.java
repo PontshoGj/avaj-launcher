@@ -5,7 +5,7 @@ import tower.*;
 import logs.Logs;
 
 public class Helicopter extends Aircraft implements Flyable {
-    private  WeatherTower weather;
+    private static  WeatherTower weather;
 
     public Helicopter(String name, Coordinates coordinates){
         super(name, coordinates);

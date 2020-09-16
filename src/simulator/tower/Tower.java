@@ -3,7 +3,7 @@ package tower;
 import java.util.ArrayList;
 import vehicle.*;
 
-public class Tower {
+public abstract class Tower {
     ArrayList<Flyable> observers = new ArrayList<>();
     public void register(Flyable flyable){
         if (!this.observers.contains(flyable)){
